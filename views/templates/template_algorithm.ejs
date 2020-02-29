@@ -1,0 +1,24 @@
+<div class="template_algorithm">
+	<article class="algorithm + <%= algorithm.id %>">
+		<h2>Algorithm <%= algorithm.id %> : <%= algorithm.name %></h2>
+		<div class="column">
+			<button id="favorites"> Add to favorites </button>
+			<button id="rm_item"> Remove this item </button>
+			<p id="name"><%= algorithm.name %> </p>
+			<p id="category">Category: <%= algorithm.category %></p>
+			<p id="image"> Image:
+				<img src="/resources/<%= algorithm.image %>" alt="[<%= algorithm.name %> has no photo]" height="10" width="10">
+			</p>
+			<p id="description">Description: <%= algorithm.description %></p>
+		</div>
+		<div class="column afisaj">
+			<p id="articles"><%= algorithm.number_of_articles %> articles include this </p>
+			<p id="publish_date">Publishing date: <%= algorithm.publish_date %></p>
+			<p id="complexity">Complexity: <%= algorithm.complexity %></p>
+			<p id="keywords">Keywords: <%= algorithm.keywords %></p>
+			<p id="copyright">Copyright: <%= algorithm.copyright %></p>
+			<br><br>
+		</div>
+		<hr>
+	</article>
+</div>

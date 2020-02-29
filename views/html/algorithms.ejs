@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Algorithms</title>
+
+  <meta charset="utf-8">
+	<meta name="author" content="Eduard Turtoi"/>
+	<link type="text/css" rel="stylesheet" href="../resources/stil.css"/>
+
+	<script src = "resources/scripts.js"></script>
+
+  <style>
+  	table td, table th{
+  		border:1px solid black;
+  	}
+	</style>
+</head>
+<body class="container">
+  <header>
+      <%- include ("../templates/header") %>
+  </header>
+  <main>
+    <div>
+        <h1>Algorithms</h1>
+    </div>
+		<button id="filter_templates"> Filter templates </button>
+		<button id="reset_templates_filters"> Reset filters </button>
+		<br> <hr> <br>
+		<div id="filters" class="column"></div>
+		<div id="filters2" class="column"></div>
+		<br> <hr> <br>
+    <table id = "algs">
+  	  <tr>
+        <th>id</th><th>Name</th><th>Description</th><th>Image</th><th>Category</th><th>Complexity</th>
+  	  </tr>
+      <% for (var i = 0; i < algorithms.length; i++) { %>
+  		<tr>
+  		  <td><%= algorithms[i].id %></td>
+  		  <td><%= algorithms[i].name %></td>
+  		  <td><%= algorithms[i].description %></td>
+        <td><img src="/resources/<%= algorithms[i].image %>" alt="no image yet" height="10" width="10"></td>
+        <td><%= algorithms[i].category %></td>
+				<td><%= algorithms[i].complexity %></td>
+  		</tr>
+			<p id = "p_algs">
+				<%- include("../templates/template_algorithm", {algorithm: algorithms[i]}); %>
+			</p>
+  	  <% } %>
+  	</table>
+		<br> <hr> <br>
+		<button id="filter_by_complexity"> Filter by complexity </button>
+		<button id="reset_filters"> Reset filters </button>
+		<button id="sort_algs"> Sort by name </button>
+		<br> <br> <hr> <br>
+</main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Eduard Turtoi"/>
+	<link type="text/css" rel="stylesheet" href="../resources/stil.css"/>
+</head>
+
+<body class="container">
+
+<main>
+  <div class="afisaj">
+    <h1>Algorithms - Login page</h1>
+		<% if(locals.error_message) { %>
+			<p> The username and password do not match or do not exist. <br>
+				Please try again. </p> <br>
+		<% } %>
+  Enter your login data: <br> <br>
+  <form id="login" method="post" >
+  	<label>
+  		Username: <input type="text" name="username" value="username">
+  	</label>
+		<br> <br>
+  	<label>
+  		Parola: <input type="password" name="password" value="password">
+  	</label>
+		<br> <br>
+  	<input type="submit" value="Submit">
+  </form>
+  </div>
+</main>
+
+<footer>
+    <%- include ("../templates/footer") %>
+</footer>
+
+</body>
+</html>

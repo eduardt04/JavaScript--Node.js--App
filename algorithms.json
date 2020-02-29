@@ -1,0 +1,147 @@
+{"lastId":11, "algorithms":
+[
+    {
+        "id":1,
+        "name":"Linear Search",
+        "description":"Algorithm that searches on an array",
+        "image":"linear-search.jpg",
+        "category":"Array searching algorithm",
+        "number_of_articles":25000,
+        "publish_date":"1960-11-01",
+        "complexity":"O(N)",
+        "keywords":"Array, searching",
+        "copyright":true
+    },
+    {
+        "id":2,
+        "name":"Bellman-Ford's algorithm",
+        "description":"Graph algorithm to find minimum paths in a graph regardless of edge's weights",
+        "image":"bellman-ford.jpg",
+        "category":"Shortest paths in a graph",
+        "number_of_articles":300,
+        "publish_date":"1970-08-17",
+        "complexity":"O(Nˆ2)",
+        "keywords":"Graphs, shortest path",
+        "copyright":true
+    },
+    {
+        "id":3,
+        "name":"Prim's algorithm",
+        "description":"Graph algorithm to find the mininum span tree of a graph",
+        "image":"prim.jpg",
+        "category":"Minimum span tree of a graph",
+        "number_of_articles":3500,
+        "publish_date":"1965-12-04",
+        "complexity":"O(N*logN)",
+        "keywords":"Graphs, minimum span tree",
+        "copyright":true
+    },
+    {
+        "id":4,
+        "name":"Dijkstra's algorithm",
+        "description":"Graph algorithm to find minimum paths in a graph with positive weights on edges",
+        "image":"dijkstra.jpg",
+        "category":"Shortest paths in a graph",
+        "number_of_articles":2500,
+        "publish_date":"1950-04-23",
+        "complexity":"O(N*logN)",
+        "keywords":"Graphs, shortest path",
+        "copyright":true
+    },
+    {
+        "id":5,
+        "name":"Ford-Fulkerson's algorithm",
+        "description":"Graph algorithm to find minimum the maximun network flow",
+        "image":"ford-fulkerson.jpg",
+        "category":"Maximum network flow of a graph",
+        "number_of_articles":100,
+        "publish_date":"1995-09-11",
+        "complexity":"O(|E|*|V|)",
+        "keywords":"Graphs, maximum network flow",
+        "copyright":true
+    },
+    {
+        "id":6,
+        "name":"BubbleSort algorithm",
+        "description":"Algorithm that sorts an array based on 'bubbles' swapping",
+        "image":"bubble-sort.jpg",
+        "category":"Array sorting algorithm",
+        "number_of_articles":10000,
+        "publish_date":"1960-08-12",
+        "complexity":"O(Nˆ2)",
+        "keywords":"Array, sorting",
+        "copyright":true
+    },
+    {
+        "id":7,
+        "name":"MergeSort algorithm",
+        "description":"Algorithm that sorts an array based on merging in halves",
+        "image":"merge-sort.jpg",
+        "category":"Array sorting algorithm",
+        "number_of_articles":5000,
+        "publish_date":"1969-02-20",
+        "complexity":"O(N*logN)",
+        "keywords":"Array, sorting",
+        "copyright":true
+    },
+    {
+        "id":8,
+        "name":"Binary Search",
+        "description":"Algorithm that searches on a sorted array",
+        "image":"binary-search.jpg",
+        "category":"Array searching algorithm",
+        "number_of_articles":20000,
+        "publish_date":"1978-09-01",
+        "complexity":"O(logN)",
+        "keywords":"Array, searching",
+        "copyright":true
+    },
+    {
+        "id":9,
+        "name":"Kruskal's algorithm",
+        "description":"Graph algorithm to find the mininum span tree of a graph",
+        "image":"kruskal.jpg",
+        "category":"Minimum span tree of a graph",
+        "number_of_articles":2000,
+        "publish_date":"1971-05-16",
+        "complexity":"O(N*logN)",
+        "keywords":"Graphs, minimum span tree",
+        "copyright":true
+    },
+    {
+        "id":10,
+        "name":"Insertion Sort algorithm",
+        "description":"Algorithm that sorts an array based on insertions",
+        "image":"insertion-sort.jpg",
+        "category":"Array sorting algorithm",
+        "number_of_articles":10000,
+        "publish_date":"1965-07-30",
+        "complexity":"O(Nˆ2)",
+        "keywords":"Array, sorting",
+        "copyright":true
+    },
+    {
+        "id":11,
+        "name":"SelectionSort algorithm",
+        "description":"Algorithm that sorts an array based on selecting the minimum value",
+        "image":"bubble-sort.jpg",
+        "category":"Array sorting algorithm",
+        "number_of_articles":1000,
+        "publish_date":"1980-01-15",
+        "complexity":"O(Nˆ2)",
+        "keywords":"Array, sorting",
+        "copyright":true
+    },
+    {
+        "id":12,
+        "name":"HeapSort algorithm",
+        "description":"Algorithm that sorts an array based on a heap",
+        "image":"linear-search.jpg",
+        "category":"Array sorting algorithm",
+        "number_of_articles":5000,
+        "publish_date":"1980-01-15",
+        "complexity":"O(N*logN)",
+        "keywords":"Array, sorting",
+        "copyright":true
+    }
+]}
